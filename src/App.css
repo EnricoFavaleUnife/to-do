@@ -41,13 +41,12 @@
 .grid-container {
   display: grid;
   grid-template-columns: repeat(2, 40vw);
+  grid-auto-flow: dense;
 
-  row-gap: 1vw;
+  column-gap: 2vw;
 
   justify-content: space-evenly;
   text-align: center;
-
-  border: red 1px solid;
 }
 
 .todo {

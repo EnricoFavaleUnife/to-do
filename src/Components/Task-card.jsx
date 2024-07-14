@@ -1,10 +1,12 @@
 import React from 'react';
+import classNames from 'classnames';
+
 import './task-card.css'; 
 
-const TaskCard = ({ name, description }) => {
+const TaskCard = ({ name, description, className }) => {
   return (
-    <div className="todo-card">
-      <h2>{name}</h2>
+    <div className={classNames("task-card", className)}>
+      <div className="card-title">{name}</div>
       <p>{description}</p>
     </div>
   );
