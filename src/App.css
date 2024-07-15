@@ -9,6 +9,7 @@
   --border-color: #dcdcdc;
   --shadow-color: rgba(0, 0, 0, 0.1);
   --primary-color: #007bff;
+  --secondary-color: #0056b3;
 
   color-scheme: light dark;
   background: var(--background);
@@ -71,8 +72,12 @@
   border: none;
   border-radius: 50%;
 
-  cursor: pointer;
   box-shadow: 10px 4px 6px var(--shadow-color);
+}
+
+.open-add-task-popup-button:hover {
+  background-color: var(--secondary-color);
+  cursor: pointer;
 }
 
 .add-task-popup {
@@ -127,4 +132,9 @@
 
   border: none;
   border-radius: 8px;
+}
+
+.submit-task-button:hover {
+  background-color: var(--secondary-color);
+  cursor: pointer;
 }

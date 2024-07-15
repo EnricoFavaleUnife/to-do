@@ -28,6 +28,10 @@
   margin-right: 0.8vw;
 }
 
+.todo .circle:hover {
+  cursor: pointer;
+}
+
 .done .circle {
   background-image: url(../assets/done.png);
   background-size: cover;
